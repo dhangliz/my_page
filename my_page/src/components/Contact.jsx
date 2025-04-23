@@ -1,8 +1,8 @@
 // src/components/Contact.jsx
 import React from 'react';
-
 const Contact = () =>{
   return (
+    <>
     <section id="contact" className="contact-section">
       <h2>Contacto</h2>
       <form className="contact-form">
@@ -24,6 +24,7 @@ const Contact = () =>{
         <button type="submit">Enviar</button>
       </form>
     </section>
+    </>
   );
 }
 

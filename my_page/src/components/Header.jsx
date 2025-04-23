@@ -1,14 +1,16 @@
 import React from 'react';
+import empresarioImg from '../assets/images/empresario_fondo_head.png';
 
-function Header() {
+const Header = () => {
   return (
-    <header>
-      <h1>Hola mundo!!</h1>
-      <h3> Bienvenido a la Web de</h3>
-      <h1>Alex Reyes</h1>
-      <h2>Software Designer</h2>
+    <header className="header">
+      <div className="header-content">
+        <img src={empresarioImg} alt="Empresario estilo anime" className="header-image" />
+        <h1>Alex Reyes</h1>
+        <p>Desarrollador Web & Soporte Técnico</p>
+      </div>
     </header>
   );
-}
+};
 
 export default Header;
